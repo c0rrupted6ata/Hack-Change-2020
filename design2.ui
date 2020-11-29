@@ -107,12 +107,30 @@ border-color: rgb(255, 255, 255);</string>
           </layout>
          </item>
          <item>
-          <widget class="QKeySequenceEdit" name="keySequenceEdit">
-           <property name="styleSheet">
-            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 0, 180), stop:1 rgba(255, 255, 255, 255));
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QKeySequenceEdit" name="keySequenceEdit">
+             <property name="toolTip">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ввод&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 0, 180), stop:1 rgba(255, 255, 255, 255));
 </string>
-           </property>
-          </widget>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 0, 200);
+</string>
+             </property>
+             <property name="text">
+              <string>Поиск</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </item>
          <item>
           <widget class="QLabel" name="label_3">
